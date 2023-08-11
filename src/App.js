@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Navbar></Navbar>
       <Routes>
-        <Route path='/' exact element={<Home />}></Route>
+        <Route path='/pop-flix' exact element={<Home />}></Route>
         <Route path='/series' exact element={<Series />}></Route>
         <Route path='/movies' exact element={<Movies />}></Route>
         <Route path='/trending' exact element={<Trending />}></Route>

@@ -9,9 +9,9 @@ function Navbar(){
     return (
         <header className={`flex z-10  w-[100%] top-4 bg-gradient-to-b absolute py-2 top-0`}>
             <div className="flex  h-8 w-[55%]">
-                <div className="w-[25%] "><Link to={"/"}><div className="bg-logotipo hover:scale-110 duration-500 bg-no-repeat bg-center h-full"></div></Link></div>
+                <div className="w-[25%] "><Link to={"/pop-flix"}><div className="bg-logotipo hover:scale-110 duration-500 bg-no-repeat bg-center h-full"></div></Link></div>
                 <ul className="flex  text-white text-sm w-[75%] justify-around items-center">     
-                    <Link to={"/"}><li className='hover:scale-110  duration-500'>Home</li></Link>
+                    <Link to={"/pop-flix"}><li className='hover:scale-110  duration-500'>Home</li></Link>
                     <Link to={"/series"}><li className='hover:scale-110 duration-500'>TV Shows</li></Link>
                     <Link to={"/movies"}><li className='hover:scale-110 duration-500'>Movies</li></Link>
                     <Link to={"trending"}><li className='hover:scale-110 duration-500'>New & Popular</li></Link>
