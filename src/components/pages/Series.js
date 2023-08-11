@@ -31,7 +31,6 @@ import filme19 from "../../img/filme20.jpg"
 import filme20 from "../../img/filme21.jpg"
 import filme21 from "../../img/filme22.jpg"
 import filme22 from "../../img/filme23.jpg"
-import filme23 from "../../img/filme24.jpg"
 import filme233 from "../../img/filme24.2.jpg"
 import filme24 from "../../img/filme25.jpg"
 import filme25 from "../../img/filme26.jpg"
@@ -54,7 +53,7 @@ function Series(){
             </div>
             <div className="absolute text-start bottom-40 pl-12 text-white">
                 <p className="text-xl pb-4">WATCH OUR LATEST TV SHOW AVALIABLE!!</p>
-                <h1 className="text-3xl pb-6 font-extrabold font-filme hover:scale-125 hover:cursor-pointer duration-500 text-transparent bg-clip-text bg-gradient-to-b from-orange-800 to-yellow-950">I WILL NEVER FORGET YOU!!</h1>
+                <h1 className="text-3xl pb-6 font-extrabold font-filme hover:scale-110 hover:cursor-pointer duration-500 text-transparent bg-clip-text bg-gradient-to-b from-orange-800 to-yellow-950">THE FORGOTTEN PASSAGE!!</h1>
                 <button className="w-36 rounded hover:scale-110 duration-500 bg-gradient-to-r from-orange-800 to-transparent text-center p-2">WATCH NOW!</button>
             </div>
             <div className="h-[1000px] bg-zinc-900">

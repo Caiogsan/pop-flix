@@ -53,8 +53,8 @@ function Movies(){
             </div>
             <div className="absolute text-start bottom-40 pl-12 text-white">
                 <p className="text-xl pb-4">WATCH OUR LATEST MOVIES AVALIABLE!!</p>
-                <h1 className="text-3xl pb-6 font-extrabold font-filme hover:scale-125 hover:cursor-pointer duration-500 text-transparent bg-clip-text bg-gradient-to-b from-zinc-700 to-red-600">THE END IS NEAR!!</h1>
-                <button className="w-36 rounded hover:scale-110 duration-500 bg-gradient-to-r from-red-500 to-transparent text-center p-2">WATCH NOW!</button>
+                <h1 className="text-3xl pb-6 font-extrabold font-filme hover:scale-110 hover:cursor-pointer duration-500 text-transparent bg-clip-text bg-gradient-to-b from-zinc-700 to-red-600">LOST ISLAND!!</h1>
+                <button className="w-36 rounded hover:scale-110 text-black font-semibold duration-500 bg-gradient-to-r from-white to-transparent text-center p-2">WATCH NOW!</button>
             </div>
             <div className="h-[1000px] bg-zinc-900">
                 <h1 className="text-white absolute top-[700px] pl-12 text-xl">Most watched Movies of all time</h1>

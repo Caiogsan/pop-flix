@@ -1,6 +1,5 @@
 import backImage from "../../img/back.mp4"
 import Card from "../items/Card"
-import Navbar from "../layouts/Navbar"
 import filme1 from "../../img/filme1.jpg"
 import filme2 from "../../img/filme2.jpg"
 import filme3 from "../../img/filme3.jpg"
@@ -33,7 +32,6 @@ import filme19 from "../../img/filme20.jpg"
 import filme20 from "../../img/filme21.jpg"
 import filme21 from "../../img/filme22.jpg"
 import filme22 from "../../img/filme23.jpg"
-import filme23 from "../../img/filme24.jpg"
 import filme233 from "../../img/filme24.2.jpg"
 import filme24 from "../../img/filme25.jpg"
 import filme25 from "../../img/filme26.jpg"
@@ -46,6 +44,7 @@ import Card2 from "../items/Card2"
 
 
 function Home(){
+    
     const lista = [`${filme1}`, `${filme2}`, `${filme3}`, `${filme4}`, `${filme6}`, `${filme7}`, `${filme8}`, `${filme9}`, `${filme10}`, `${filme11}`, `${filme12}`, `${filme13}`, `${filme14}`, `${filme15}`, `${filme16}`, `${filme17}`, `${filme18}`, `${filme19}`, `${filme20}`, `${filme21}`, `${filme22}`, `${filme233}`, `${filme24}`, `${filme25}`, `${filme26}`, `${filme27}`, `${filme28}`, `${filme29}`, `${filme100}`]
     const lista2 = [`${filmetop1}`, `${filmetop2}`, `${filmetop3}`, `${filmetop4}`, `${filmetop5}`, `${filmetop6}`, `${filmetop7}`, `${filmetop8}`, `${filmetop9}`, `${filmetop10}`]
     return (
@@ -57,7 +56,7 @@ function Home(){
             </div>
             <div className="absolute text-start bottom-40 pl-12 text-white">
                 <p className="text-xl pb-4">WATCH OUR LATEST MOVIES & TV SHOWS AVALIABLE!!</p>
-                <h1 className="text-3xl pb-6 font-extrabold font-filme hover:scale-125 hover:cursor-pointer duration-500 text-transparent bg-clip-text bg-gradient-to-b from-red-700 to-yellow-400">THE LAST FIRECRAFT!!</h1>
+                <h1 className="text-3xl pb-6 font-extrabold font-filme hover:scale-110 hover:cursor-pointer duration-500 text-transparent bg-clip-text bg-gradient-to-b from-red-700 to-yellow-400">THE LAST FIRECRAFT!!</h1>
                 <button className="w-36 rounded hover:scale-110 duration-500 bg-gradient-to-r from-red-500 to-transparent text-center p-2">WATCH NOW!</button>
             </div>
             <div className="h-[1000px] bg-zinc-900">
